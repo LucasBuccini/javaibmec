@@ -1,0 +1,24 @@
+package App;
+
+import java.util.Scanner;
+
+public class Hello {
+
+	public static void main(String[] args) {
+				
+		System.out.println("Hello Java!!!");
+		
+		int x = 10;
+		
+		System.out.println(x);
+		boolean y = true;
+		System.out.println(y);
+		String nome;
+		Scanner teclado = new Scanner(System.in);
+		System.out.print("Inserir nome do aluno: ");
+		nome = teclado.nextLine();
+		System.out.println("Aluno inserido: "+ nome);
+		
+	}
+
+}

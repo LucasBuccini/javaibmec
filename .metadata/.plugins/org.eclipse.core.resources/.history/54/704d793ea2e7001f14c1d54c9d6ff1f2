@@ -1,0 +1,16 @@
+package App;
+
+public class Hello {
+
+	public static void main(String[] args) {
+				
+		System.out.println("Hello Java!!!");
+		
+		int x = 10;
+		
+		System.out.println(x);
+		boolean y = true;
+		System.out.println(y);
+	}
+
+}
