@@ -25,5 +25,6 @@ public class AC1 {
 		System.out.printf("O(a) funcionario(a) 3 chama %s, e recebe R$ %.2f \n", nome3,sal3 );
 		double media = (sal1+sal2+sal3)/3;
 		System.out.printf("A media de salários é de R$ %.2f",media);
+		
 	}
 }
