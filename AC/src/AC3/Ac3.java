@@ -14,8 +14,8 @@ public class Ac3 {
 		altura = teclado.nextDouble();
 		area = 2*Math.PI*raio*(raio+altura);
 		volume = Math.PI*raio*raio*altura;
-		System.out.printf("O valor da area do cilindro é de %.2f unidades de medida.",area);
-		System.out.printf("O valor do volume do cilindro é de %.2f unidades de medida", volume);
+		System.out.printf("O valor da area do cilindro é de %.2f unidades de medida.\n",area);
+		System.out.printf("O valor do volume do cilindro é de %.2f unidades de medida.\n", volume);
 	}
 
 }
