@@ -32,7 +32,7 @@ public class Main {
 		}
 		a1.setLivro(lista_livros);
 		
-		System.out.printf("O autor %s tem os seguintes livros: \n",a1.getNome());
+		System.out.printf("\nO autor %s tem os seguintes livros: \n",a1.getNome());
 		for(Livro l: a1.getLivro()) {
 			System.out.println("================================");
 			System.out.println(l.getNome_livro());
